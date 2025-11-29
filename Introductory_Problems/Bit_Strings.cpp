@@ -18,12 +18,14 @@ ll power(ll a, ll b){
 void solve() {
     /*
         How & Why?
-        
+        It's simple, we have 2^x subsets.
+        That's awesome.
+        We should be using power func manually, as modular arithmatic does the same stuff in log(n).
     */
     ll n;
     cin>>n;
 
-    
+    cout<<power(2,n)%MOD<<endl;
 }
 
 int main() {
